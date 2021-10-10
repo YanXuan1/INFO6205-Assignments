@@ -59,8 +59,9 @@ public class UF_HWQUPCMain {
             if(temp1 != temp2){
                 if(!h.connected(temp1, temp2)){
                     h.connect(temp1, temp2);
-                    result++;
+
                 }
+                result++;
             }else continue;
 
         }
